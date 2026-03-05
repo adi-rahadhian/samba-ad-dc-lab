@@ -35,3 +35,15 @@ sudo bash scripts/60-create-objects.sh
 
 # Check service
 sudo systemctl status samba-ad-dc --no-pager
+
+## Documentation
+
+Detailed guides for each stage of this lab are available in the `docs/` directory:
+
+- [`01-install.md`](docs/01-install.md) – prerequisites and static IP/hostname setup.
+- [`02-provision.md`](docs/02-provision.md) – domain provisioning.
+- [`03-dns-kerberos.md`](docs/03-dns-kerberos.md) – DNS and Kerberos configuration.
+- [`04-verify.md`](docs/04-verify.md) – verification checklist.
+- [`troubleshooting.md`](docs/troubleshooting.md) – common issues and fixes.
+
+Refer to these documents if you need more detail on a particular step or are troubleshooting problems.
