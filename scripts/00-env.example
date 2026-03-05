@@ -1,0 +1,20 @@
+# Copy to scripts/00-env and edit values.
+# DO NOT commit scripts/00-env if it contains passwords.
+
+DC_IP="10.0.0.252"
+DC_FQDN="dc1.test.local"
+DC_HOST="dc1"
+
+REALM="TEST.LOCAL"
+DOMAIN="TEST"     # NetBIOS
+DNS_FORWARDER="9.9.9.9"
+
+# Optional objects
+OU_USERS="OU=Users,DC=test,DC=local"
+OU_WORKSTATIONS="OU=Workstations,DC=test,DC=local"
+
+NEW_USER="joe"
+NEW_USER_GIVEN="Yossef"
+NEW_USER_SURNAME="Ali"
+# Leave blank to be prompted interactively
+NEW_USER_PASSWORD=""
